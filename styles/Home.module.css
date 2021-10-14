@@ -1,11 +1,25 @@
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+.buttons, .inputs {
+  margin-bottom: 20px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons div {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -14,6 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Jost', sans-serif;
   align-items: center;
 }
 
@@ -34,7 +49,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #51C0AC;
   text-decoration: none;
 }
 
@@ -93,8 +108,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #51C0AC;
+  border-color: #51C0AC;
 }
 
 .card h2 {
